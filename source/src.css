@@ -1,3 +1,10 @@
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #4eb35f;
+  border-radius: 8px;
+}
 h1 {
   text-align: left;
 }

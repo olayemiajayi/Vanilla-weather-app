@@ -15,34 +15,45 @@
   </head>
   <body>
     <div class="container">
-      <h1>New York</h1>
-      <div class="row">
-        <div class="col-6">
-          <div class="temperature">
+      <div class="weather-app">
+        <form>
+          <input type="text" placeholder="Type city name" />
+          <input type="submit" value="search" class="btn btn-primary" />
+        </form>
+        <h1>New York</h1>
+        <div class="row">
+          <div class="col-6">
+            <div class="temperature">
+              <ul>
+                <li id="unit-date">Friday 05:00</li>
+                <li class="description" id="description-weather">Cloudy</li>
+              </ul>
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+                alt="clear"
+              />
+              <span class="degree" id="number">14</span>
+              <span class="weather" id="degree-celsius">°C|</span>
+              <span class="fall" id="degree-fahrenheit">°F</span>
+            </div>
+          </div>
+          <div class="col-6">
             <ul>
-              <li id="unit-date">Friday 05:00</li>
-              <li class="description" id="description-weather">Cloudy</li>
+              <li class="humidity">Humidity:29%</li>
+              <li class="wind">Wind:8Km/h</li>
             </ul>
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-              alt="clear"
-            />
-            <span class="degree" id="number">14</span>
-            <span class="weather" id="degree-celsius">°C|</span>
-            <span class="fall" id="degree-fahrenheit">°F</span>
           </div>
         </div>
-        <div class="col-6">
-          <ul>
-            <li class="humidity">Humidity:29%</li>
-            <li class="wind">Wind:8Km/h</li>
-          </ul>
-        </div>
+        <small>
+          <a
+            href="https://github.com/olayemiajayi/Vanilla-weather-app"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Yetunde Ajayi
+        </small>
       </div>
     </div>
-    <small>
-      <a href="" target="_blank">Open-source code</a>by Yetunde Ajayi
-    </small>
     <script src="source/index.js"></script>
   </body>
 </html>
