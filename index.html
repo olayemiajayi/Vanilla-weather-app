@@ -11,13 +11,38 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="source/src.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Weather app</h1>
+      <h1>New York</h1>
+      <div class="row">
+        <div class="col-6">
+          <div class="temperature">
+            <ul>
+              <li id="unit-date">Friday 05:00</li>
+              <li class="description" id="description-weather">Cloudy</li>
+            </ul>
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+              alt="clear"
+            />
+            <span class="degree" id="number">14</span>
+            <span class="weather" id="degree-celsius">°C|</span>
+            <span class="fall" id="degree-fahrenheit">°F</span>
+          </div>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li class="humidity">Humidity:29%</li>
+            <li class="wind">Wind:8Km/h</li>
+          </ul>
+        </div>
+      </div>
     </div>
+    <small>
+      <a href="" target="_blank">Open-source code</a>by Yetunde Ajayi
+    </small>
     <script src="source/index.js"></script>
   </body>
 </html>

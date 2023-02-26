@@ -1,4 +1,12 @@
 h1 {
-  text-align: center;
-  color: blue;
+  text-align: left;
+}
+.humidity {
+  list-style-type: none;
+}
+.wind {
+  list-style-type: none;
+}
+.description {
+  list-style-type: none;
 }
