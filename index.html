@@ -16,43 +16,52 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <form>
+        <form class="mb-3" id="form-search">
           <input type="text" placeholder="Type city name" />
-          <input type="submit" value="search" class="btn btn-primary" />
+          <input
+            type="submit"
+            value="search"
+            class="btn btn-primary w-48 m-2"
+          />
         </form>
         <h1>New York</h1>
         <div class="row">
-          <div class="col-6">
-            <div class="temperature">
-              <ul>
-                <li id="unit-date">Friday 05:00</li>
-                <li class="description" id="description-weather">Cloudy</li>
-              </ul>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-                alt="clear"
-              />
-              <span class="degree" id="number">14</span>
-              <span class="weather" id="degree-celsius">°C|</span>
-              <span class="fall" id="degree-fahrenheit">°F</span>
-            </div>
-          </div>
-          <div class="col-6">
+          <div class="col-7">
             <ul>
-              <li class="humidity">Humidity:29%</li>
-              <li class="wind">Wind:8Km/h</li>
+              <li class="date" id="unit-date">Friday 05:00</li>
+              <li class="description" id="description-weather">Cloudy</li>
+            </ul>
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+              alt="clear"
+            />
+            <strong>
+              <span class="degree" id="number">14</span>
+            </strong>
+            <a href="#">
+              <span class="weather" id="degree-celsius">°C </span>
+            </a>
+            <span class="fall" id="degree-fahrenheit">
+              | <a href="#">°F</a>
+            </span>
+          </div>
+
+          <div class="col-5">
+            <ul>
+              <li class="humidity">Humidity: 29%</li>
+              <li class="wind">Wind: 8Km/h</li>
             </ul>
           </div>
         </div>
-        <small>
-          <a
-            href="https://github.com/olayemiajayi/Vanilla-weather-app"
-            target="_blank"
-            >Open-source code</a
-          >
-          by Yetunde Ajayi
-        </small>
       </div>
+      <small>
+        <a
+          href="https://github.com/olayemiajayi/Vanilla-weather-app"
+          target="_blank"
+          >Open-source code</a
+        >
+        by Yetunde Ajayi
+      </small>
     </div>
     <script src="source/index.js"></script>
   </body>
