@@ -1,35 +1,51 @@
+.weather-app-app {
+  max-width: 500px;
+  margin: 30px auto;
+}
 .weather-app {
-  max-width: 480px;
-  margin: 30 auto;
-  padding: 15px;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 11px;
   border: 2px solid #4eb35f;
   border-radius: 8px;
 }
-h1 {
-  text-align: left;
+
+ul {
+  margin: 0 auto;
+  padding: 0;
 }
+
 .date {
   list-style-type: none;
 }
 .humidity {
   list-style-type: none;
+  font-weight: bold;
+  font-size: 15px;
 }
 .wind {
   list-style-type: none;
+  font-weight: bold;
+  font-size: 15px;
 }
 .description {
   list-style-type: none;
+  font-size: 20px;
 }
 .weather {
+  position: relative;
   margin: 0 auto;
-  padding: 2px;
-  font-size: 18px;
+  padding: 1px;
+  font-size: 13px;
+  top: -20px;
 }
 .fall {
-  margin: 2px;
+  position: relative;
+  margin: 1px;
   padding: 1px;
-  font-size: 18px;
+  font-size: 13px;
+  top: -20px;
 }
 .degree {
-  font-size: 40px;
+  font-size: 45px;
 }
