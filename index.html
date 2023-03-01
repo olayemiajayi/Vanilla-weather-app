@@ -19,15 +19,14 @@
       <div class="weather-app-app">
         <div class="weather-app">
           <form class="mb-3" id="form-search">
-            <input type="text" placeholder="Type city name" />
+            <input type="text" placeholder="Type city name" id="city-input" />
             <input
               type="submit"
-              id="country-weather"
               value="search"
               class="btn btn-primary w-48 m-2"
             />
           </form>
-          <h1 id="city-name"></h1>
+          <h1 id="city-name">London</h1>
           <div class="row">
             <div class="col-7">
               <ul>
@@ -35,18 +34,20 @@
                 <li class="description" id="description-weather">Cloudy</li>
               </ul>
               <img
-                src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-                alt="clear"
-                id="icon"
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png"
+                id="icon-app"
               />
+
               <strong>
                 <span class="degree" id="number">14</span>
               </strong>
 
-              <span class="weather" id="degree-celsius">°C </span>
+              <span class="weather" id="degree-celsius"
+                ><a href="#" class="active">°C</a>
+              </span>
 
               <span class="fall" id="degree-fahrenheit">
-                | <a href="#">°F</a></span
+                | <a href="#" class="active-fall">°F</a></span
               >
             </div>
 

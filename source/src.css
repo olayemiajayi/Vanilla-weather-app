@@ -1,3 +1,8 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #352f44;
+}
+
 .weather-app-app {
   max-width: 500px;
   margin: 30px auto;
@@ -6,7 +11,7 @@
   max-width: 500px;
   margin: 30px auto;
   padding: 11px;
-  border: 2px solid #4eb35f;
+  border: 2px solid #97cba9;
   border-radius: 8px;
 }
 
@@ -21,12 +26,12 @@ ul {
 .humidity {
   list-style-type: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
 }
 .wind {
   list-style-type: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
 }
 .description {
   list-style-type: none;
@@ -47,5 +52,15 @@ ul {
   top: -20px;
 }
 .degree {
-  font-size: 45px;
+  font-size: 50px;
+}
+.active {
+  color: black;
+  text-decoration: none;
+}
+.active-fall {
+  text-decoration: none;
+}
+.active:hover {
+  cursor: default;
 }
